@@ -45,3 +45,10 @@ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --boots
 ```bash
 uvicorn src.api.main:app --host 0.0.0.0 --port 8080
 ```
+
+## install prometheus & grafana (python)
+```bash
+pip install prometheus-client grafanalib
+```
+
+
