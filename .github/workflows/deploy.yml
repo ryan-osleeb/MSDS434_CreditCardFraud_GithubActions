@@ -1,4 +1,4 @@
-# .github/workflows/push-files.yml
+# .github/workflows/deploy.yml
 name: Push Files to EC2
 
 on:
@@ -23,3 +23,8 @@ jobs:
         source: "."
         target: "/home/ubuntu/ccfraud"
         overwrite: true
+        exclude: |
+          .git/
+          .github/
+          .gitignore
+          README.md
