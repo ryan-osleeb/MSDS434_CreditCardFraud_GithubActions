@@ -8,7 +8,8 @@ data from Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 [## demo video
 
 [▶ watch the demo](https://github.com/ryan-osleeb/MSDS434_FinalProject_CreditCardFraud/releases/download/v1.0.0/MSDS434_CreditCardFraud_Application_default.mp4)]
-
+](https://github.com/ryan-osleeb/MSDS434_FinalProject_CreditCardFraud/releases/latest/download/MSDS434_CreditCardFraud_Application_default.mp4
+)
 ---
 
 ## requirements
