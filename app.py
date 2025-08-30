@@ -97,11 +97,11 @@ class Record(BaseModel):
 class Batch(BaseModel):
     records: List[Record]
 
-@app.get("/healthz")
+@app.get("/health")
 def healthz():
     return {"status": "ok", "models_dir": str(MODELS_DIR)}
 
-@app.get("/readyz")
+@app.get("/ready")
 def readyz():
     return {"status": "ready"}
 
